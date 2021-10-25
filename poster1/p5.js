@@ -29,7 +29,7 @@ function draw(){
   // }
   
   function imgXcrd(imgWidthPx) {
-      return (windowWidth-(windowWidth*(imgWidthPx/632)))*scrollPosition/bodyHeight
+      return (windowWidth-(windowWidth*(imgWidthPx/550.8)))*scrollPosition/bodyHeight
     }
 
   function imgWdHt (imgWidthPx) {
