@@ -1,0 +1,91 @@
+/* swiper */
+.posters {
+  position: relative;
+  padding-bottom:20%;
+}
+
+.posters .swiper-container {
+  overflow:hidden;
+}
+
+.posters .swiper-prev, 
+.posters .swiper-next {
+  width: 42px;
+  height: 42px;
+  position:absolute;
+  top:90%;
+  z-index:1;
+  cursor:pointer;
+  outline:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-prev .material-icons {
+  margin-left:27px;
+}
+.material-icons {
+  font-size: 75px;
+  color:rgba(0,0,0,0.2);
+}
+.posters .swiper-prev {
+  left:50%;
+  margin-left:-70px;
+}
+.posters .swiper-next {
+  right:50%;
+  margin-right:-70px;
+}
+
+/* iframe 프레임 비율 */
+.wdiframearea {
+  width: 77.86%;
+  max-width: 72vh;
+  margin:30px auto;
+}
+.wdiframearea .htiframearea {
+  position: relative;
+  padding-top:128.42%;
+  width: 100%;
+}
+.wdiframearea .htiframearea iframe {
+  display: block;
+  position: absolute;
+  top:0;
+  bottom:0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding:5%;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/* Tablet CSS */
+/* @media all and (min-aspect-ratio:4/3){
+  .posters .wdiframearea {
+    width: 55%;
+  }
+
+}
+*/
+@media all and (min-width:1105px) {
+  .posters {
+    padding-bottom: 0;
+  }
+  .posters .swiper-prev, 
+  .posters .swiper-next {
+    top:47%;
+  }
+  .posters .swiper-prev {
+    margin-left:-550px;
+  }
+  .posters .swiper-next {
+    margin-right:-550px;
+  }
+}
+
+/* PC CSS */
+@media all and (min-width:1152px) {
+
+}
