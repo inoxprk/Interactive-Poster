@@ -1,7 +1,7 @@
 body {
 margin:0;
 padding:0;
-scroll-behavior: auto;
+overscroll-behavior: none;
 }
 
 body::-webkit-scrollbar {
