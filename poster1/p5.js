@@ -43,9 +43,9 @@ function draw(){
   background(25,255,255) 
   imgWidth = 100
   yCoord = 0
-  image(img,imgXcrd(imgWidth),imgYcrd(yCoord),imgWidth, imgWidth)
+  image(img,imgXcrd(imgWidth),imgYcrd(yCoord),imgWdHt(imgWidth), imgWdHt(imgWidth))
 
   imgWidth = 200
   yCoord = 300
-  image(img,imgXcrd(imgWidth),imgYcrd(yCoord),imgWidth, imgWidth)
+  image(img,imgXcrd(imgWidth),imgYcrd(yCoord),imgWdHt(imgWidth), imgWdHt(imgWidth))
 }
