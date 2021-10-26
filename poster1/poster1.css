@@ -1,7 +1,9 @@
 body {
-margin:0;
-padding:0;
-overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+  height:100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 body::-webkit-scrollbar {
@@ -9,6 +11,6 @@ body::-webkit-scrollbar {
 }
 
 body {
-  -ms-overflow-style: none; 
-  scrollbar-width: none;  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
