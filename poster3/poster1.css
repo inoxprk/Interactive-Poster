@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overscroll-behavior-y: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+main {
+  padding-bottom: 900%;
+}
+canvas {
+  position:fixed;
+  top: 0px;
+}
