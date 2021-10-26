@@ -5,7 +5,7 @@ function preload() { //이미지 변수에 이미지 디렉토리 할당
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight * 3)
+  createCanvas(windowWidth, windowHeight*3)
 }
 
 function draw() {
