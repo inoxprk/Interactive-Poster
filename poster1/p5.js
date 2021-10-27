@@ -39,15 +39,15 @@ function draw() {
 
   y = 181.3294
   image(img3, 0, yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
-  image(img4, xCoord(-250), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
+  image(img4, xCoord(0), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
 
   y = 329.1977
   image(img5, 0, yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
-  image(img6, xCoord(-500), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
+  image(img6, xCoord(0), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
 
   y = 477.0659
   image(img7, 0, yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
-  image(img8, xCoord(-750), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
+  image(img8, xCoord(0), yCoord(y), imgWd(imgWidth), imgHt(imgHeight))
 
   imgWidth = 226.4328
   imgHeight = 326.9971
