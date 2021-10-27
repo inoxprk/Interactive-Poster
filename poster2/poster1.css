@@ -1,21 +1,18 @@
-#object {
-  position: fixed;
-  left: 0;
-  top: 50%;
-  height: 30px;
-  width: 30px;
-  background: black;
-}
-
 body {
+  margin: 0;
+  padding: 0;
   -ms-overflow-style: none;
-  scrollbar-width: none; 
+  scrollbar-width: none;
+  overscroll-behavior-y: none;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
-
-.box {
-  height: 3000px;
+main {
+  padding-bottom: 1200%;
+}
+canvas {
+  position:fixed;
+  top: 0px;
 }

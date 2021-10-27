@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 main {
-  padding-bottom: 900%;
+  padding-bottom: 1200%;
 }
 canvas {
   position:fixed;

@@ -1,16 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-  height:100%;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
-
-body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+main {
+  padding-bottom: 1200%;
+}
+canvas {
+  position:fixed;
+  top: 0px;
 }
