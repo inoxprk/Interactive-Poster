@@ -30,7 +30,7 @@ p {
   }
 }
 #instruction2 {
-  animation: fadeindelay 4s 3s;
+  animation: fadeindelay 6s 4s;
 }
 @keyframes fadeindelay {
   from {
