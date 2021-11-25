@@ -28,7 +28,7 @@ function draw() {
 //windowWidth-0.35-imgWdHt(imgWidth)
 
 //이 아래는 사전적으로 정의된 함수들 ----------------------------------------------------------------------------------------------------
-let bodyHeight = document.querySelector('*').scrollHeight * 2 //return body scroll Height
+let bodyHeight = document.querySelector('*').scrollHeight * 0.7 //return body scroll Height
 let scrollPosition = 0
 window.addEventListener('scroll', function () { //return current scroll position
   scrollPosition = Math.round(window.scrollY)
